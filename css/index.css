@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Karla", sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
   }
 
 body{
@@ -38,26 +38,62 @@ body{
   background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
 }
 
-.number{
+.number{  
+  font-weight: 700;
   margin-top: 30px;
   font-size: 40px;
 }
 
 .leftcard > h3{
   margin-bottom: 15px;
+  font-weight: 800;
+}
+
+.subresult{
+  color: rgba(255, 255, 255, 0.959);
 }
 
 .rightcard {
   width: 50%;
   height: 20rem;
   padding: 50px;
-  text-align: center;
-  border: 1px yellow solid;
+  text-align: justify;
 }
 
 .rightcard ul{
   list-style: none;
 }
+
+.reaction{
+  background-color:  hsla(0, 100%, 67%, 0.5);
+  color: hsla(0, 100%, 67%);
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: inherit;
+}
+.memory{
+  background-color: hsla(39, 100%, 56%, 0.5);
+  color: hsl(39, 100%, 56%);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.verbal{ 
+  background-color: hsl(166, 100%, 37%, 0.5);
+  color: hsl(166, 100%, 37%);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.visual{
+  background-color: hsl(234, 85%, 45%, 0.5);
+  color: hsl(234, 85%, 45%);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
 
 .attribution {
   font-size: 11px;

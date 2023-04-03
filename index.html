@@ -10,6 +10,12 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Summary component</title>
   </head>
   <body>
@@ -18,20 +24,20 @@
         <p>Your Result</p>
         <div class="circle">
           <p class="number">76</p>
-          <p>of 100</p>
+          <p style="color:rgba(255, 255, 255, 0.308)">of 100</p>
         </div>
         <h3>Great</h3>
-        <p>
+        <p class="subresult">
           Your scored higher than 65% of the people who have taken these tests.
         </p>
       </div>
       <div class="rightcard">
         <h3>Summary</h3>
         <ul>
-          <li>Reaction 80 / 100</li>
-          <li>Memory 92 / 100</li>
-          <li>Verbal 61 / 100</li>
-          <li>Visual 72 / 100</li>
+          <li class="reaction">Reaction 80 / 100</li>
+          <li class="memory">Memory 92 / 100</li>
+          <li class="verbal">Verbal 61 / 100</li>
+          <li class="visual">Visual 72 / 100</li>
         </ul>
         <button>Continue</button>
       </div>
