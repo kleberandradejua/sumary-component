@@ -7,6 +7,7 @@
 body{
     font-size: 16px;
     margin: 25% 25% 25% 25%;
+    background-color: hsla(241, 100%, 89%, 0.397);
 }
 
 .principal{
@@ -58,6 +59,8 @@ body{
   height: 20rem;
   padding: 50px;
   text-align: justify;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px hsla(224, 30%, 27%, 0.377);
 }
 
 .rightcard ul{
@@ -70,25 +73,41 @@ body{
   font-weight: 500;
   margin-top: 10px;
   margin-bottom: 10px;
-  text-align: inherit;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
 }
+
 .memory{
   background-color: hsla(39, 100%, 56%, 0.5);
   color: hsl(39, 100%, 56%);
   margin-top: 10px;
   margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
 }
 .verbal{ 
   background-color: hsl(166, 100%, 37%, 0.5);
   color: hsl(166, 100%, 37%);
   margin-top: 10px;
   margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
 }
 .visual{
   background-color: hsl(234, 85%, 45%, 0.5);
   color: hsl(234, 85%, 45%);
   margin-top: 10px;
   margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
 }
 
 
