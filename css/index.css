@@ -43,6 +43,10 @@ body{
   background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
 }
 
+.circle > :last-child{
+  color: rgba(255, 255, 255, 0.308)
+}
+
 .number{  
   font-weight: 700;
   margin-top: 30px;
@@ -73,45 +77,45 @@ body{
 }
 
 .reaction{
-  background-color:  hsla(0, 100%, 67%, 0.5);
+  background-color:  hsla(0, 100%, 67%, 0.226);
   color: hsla(0, 100%, 67%);
   font-weight: 500;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   border-radius: 10px;
 }
 
 .memory{
-  background-color: hsla(39, 100%, 56%, 0.5);
+  background-color: hsla(39, 100%, 56%, 0.226);
   color: hsl(39, 100%, 56%);
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   border-radius: 10px;
 }
 .verbal{ 
-  background-color: hsl(166, 100%, 37%, 0.5);
+  background-color: hsl(166, 100%, 37%, 0.226);
   color: hsl(166, 100%, 37%);
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   border-radius: 10px;
 }
 .visual{
-  background-color: hsl(234, 85%, 45%, 0.5);
+  background-color: hsl(234, 85%, 45%, 0.226);
   color: hsl(234, 85%, 45%);
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   border-radius: 10px;
 }
 
@@ -127,10 +131,37 @@ button{
   font-weight: 500;  
 }
 
+button:hover{
+  background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+}
+
 .numbercem{
   color: rgba(0, 0, 0, 0.24);
 }
 
+.numberleft{
+  color: black;
+  font-weight: 700;
+  margin-left: 80px;
+}
+
+@media (max-width: 680px){
+  .principal{
+    display: flex;
+    flex-direction: column;
+    max-width: auto;
+  }
+
+ .leftcard, .rightcard{
+  border-radius: 0px 0px 20px 20px;
+  width: auto;
+ }
+
+ .rightcard{
+  box-shadow: none;
+ }
+ 
+}
 
 
 .attribution {
